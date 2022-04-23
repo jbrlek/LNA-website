@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    background-color: darkgray;
+}
+.container-alter-1{
+    background-color: #2a2a2a;
+    min-height: 110vh;
+}
+.container-alter-2{
+    background-color: #161616;
+    min-height: 110vh;
+    margin: auto;
+}   
+.border {
+    min-width: 120px;
+    height: 10vh;
+    border: 10px;
+    border-color: #161616;
+    margin: auto;
+}
