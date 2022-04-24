@@ -5,10 +5,12 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightgray;
+    text-align: justify;
 }
 #branding{
     float: left;
 }
+/*header*/
 header {
     position: fixed;
     min-height: fit-content;
@@ -27,7 +29,7 @@ nav a{
     font-size: 20px;
     font-weight: bold;
 }
-
+/*main*/
 .spacer{
     height: 10vh;
 }
@@ -41,16 +43,32 @@ nav a{
     min-height: 110vh;
     padding: 5vh;
 }
+
 .container-alter-2{
     background-color: #161616;
     min-height: 110vh;
     margin: auto;
     padding: 5vh;
 }   
-.border {
-    min-width: 120px;
-    height: 10vh;
-    border: 10px;
-    border-color: #161616;
-    margin: auto;
+.predstavitev-alter-1{
+    background-color: #3e3e3e;
+    min-height: 25vh;
+    padding: 1vh;
+}
+
+.predstavitev-alter-2{
+    background-color: #4e4e4e;
+    min-height: 25vh;
+    padding: 5vh;
+}
+.pic img{
+    display: block;
+    float:left;
+    max-width: 20%;
+}
+.description{
+    display: block;
+    float: left;
+    width: 75%;
+    padding: 0% 2.5%;
 }
